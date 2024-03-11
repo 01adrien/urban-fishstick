@@ -13,10 +13,16 @@ https://www.ijetajournal.org/volume-2/issue-2/IJETA-V2I2P10.pdf
 https://linuxfr.org/users/krunch/journaux/sauter-l-airgap-avec-des-ultrasons
 https://linuxfr.org/users/erdnaxeli/journaux/communiquer-via-les-ultrasons
 
-https://hal.science/jpa-00251184/document
 
-librairie:
+https://fr.wikipedia.org/wiki/Modulation_par_d%C3%A9placement_de_fr%C3%A9quence
+
+librairie/ utilitaires:
 
 http://www.whence.com/minimodem/
         
 https://quiet.github.io/quiet-js/
+
+https://github.com/brian-armstrong
+
+Petit programme communication ultrasons ( python )<br/>
+https://github.com/Katee/quietnet/tree/master
