@@ -27,5 +27,6 @@ https://github.com/brian-armstrong
 Petit programme communication ultrasons ( python )<br/>
 https://github.com/Katee/quietnet/tree/master
 
-//Etude sur moyen de communication sous-marin
+//Etude sur moyen de communication sous-marin :
+
 https://www.mdpi.com/2077-1312/8/10/736
