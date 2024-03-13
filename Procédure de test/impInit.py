@@ -8,8 +8,8 @@ Created on Wed Mar 13 10:45:55 2024
 import RPi.GPIO as GPIO
 import time
 
-trig_pin = 17  # Remplacez par le numéro de votre broche Trig (émetteur)
-echo_pin = 27  # Remplacez par le numéro de votre broche Echo (recepteur)
+trig_pin = 17  # Remplacez par le numéro de la broche Trig (émetteur)
+echo_pin = 27  # Remplacez par le numéro de la broche Echo (recepteur)
 
 def setup():
     GPIO.setmode(GPIO.BCM)
