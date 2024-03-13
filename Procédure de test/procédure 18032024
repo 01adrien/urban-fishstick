@@ -9,17 +9,17 @@ Matériel :
 Ruban adhésif pour marquer les distances
 Connecteurs, résistances ???
 
-Tester les capteurs individuellement :
+1)Tester les capteurs individuellement :
 Objectif : Vérifier le bon fonctionnement du récepteur et de l'émetteur de chaque capteur HC-SR04. 
 Comment : Nous utiliserons les capteurs comme capteurs de distance (leur utilisation de base).
 Script : testCapteur.py
 
-Tester la communication entre les deux capteurs :
+2)Tester la communication entre les deux capteurs :
 Objectif : Vérifier si la réception d'un ultrason émis par un autre capteur ne pose pas de problème. 
 Comment : Le premier appareil enverra trois impulsions d'ultrason en direction du second, le second enregistrera les impulsions reçues.
 Script : impInit.py (émetteur), recInit.py(récepteur)
 
-Tester la correspondance entre le temps d'émission et le temps de réception 
+3)Tester la correspondance entre le temps d'émission et le temps de réception 
 Objectif : Evaluer la variation de la différence de temps entre l'émission et la réception. 
 Comment : Le premier appareil émettra des impulsions comme suit :
 Impulsion : 100 ms
@@ -36,7 +36,7 @@ Impulsion : 1500 ms
 Le second appareil enregistrera la durée des impulsions reçues. Ceci se fera plusieurs fois et à différentes distances afin de pouvoir constater si la distance impacte les résultats. Nous pourrons alors définir la précision (ou non) de ce système. 
 Scripts : impMs.py (émetteur), recMs.py (récepteur)
 
-Tester le niveau de perte de paquets : 
+4)Tester le niveau de perte de paquets : 
 Objectif : Définir le taux de perte de paquets dans la communication afin d'adapter la méthode en fonction de ces résultats. 
 Comment : En fonction des résultats du test précédent, nous définirons une échelle de temps à utiliser pour communiquer en binaire. Par exemple :
 100 ms – 200 ms = 0
@@ -44,8 +44,7 @@ Comment : En fonction des résultats du test précédent, nous définirons une �
  À la suite de quoi une série de 50 « paquets » sera envoyée. Les paquets seront constitués d'un message en 8 bits et représenteront des multiples de 5 dans l'ordre croissant (00000101, 00001010, ...). 
 Après chaque paquet, une seconde d'attente sera effectuée. 
 Le récepteur enregistrera ces paquets et analysera le taux de paquets reçus incorrects. 
-Scripts : impBin.py (émetteur), recBin.py (récepteur), anaBin.py (analyse du taux d'erreur).
-
-Tester un moyen de communication unidirectionnel traduisant des mots en binaire :
+Scripts : impBin.py (émetteur), recBin.py (récepteur).
+5)Tester un moyen de communication unidirectionnel traduisant des mots en binaire :
  Objectif : Permettre la communication entre les deux appareils en envoyant un message "String".
 A discuter.
