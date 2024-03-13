@@ -1,5 +1,14 @@
 Procédure de test du 18/03/2024 
 
+Matériel :
+
+2 Raspberry Pi connectés au wifi
+2 cartes SD avec Raspbian
+2 sources d'alimentation
+2 capteurs HC-SR04
+Ruban adhésif pour marquer les distances
+Connecteurs, résistances ???
+
 Tester les capteurs individuellement :
 Objectif : Vérifier le bon fonctionnement du récepteur et de l'émetteur de chaque capteur HC-SR04. 
 Comment : Nous utiliserons les capteurs comme capteurs de distance (leur utilisation de base).
