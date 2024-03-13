@@ -8,7 +8,7 @@ Created on Wed Mar 13 10:51:33 2024
 import RPi.GPIO as GPIO
 import time
 
-echo_pin = 24  # Remplacez par le numéro de votre broche Echo (récepteur)
+echo_pin = 24  # Remplacez par le numéro de la broche Echo (récepteur)
 
 def setup():
     GPIO.setmode(GPIO.BCM)
