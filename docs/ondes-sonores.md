@@ -2,6 +2,10 @@
 
 # Les ondes sonores
 
+
+<img src="./images/sound-scale.png" class="img-center" width="600px">
+<br/>
+
 la perception du son est un changement de pression (pression atmospherique + pression accoustique)
 
 $$
@@ -72,3 +76,10 @@ $$
 <br/>
 
 # Conversion Analogique &#8594; digitale 
+
+frequence = cycles par seconde (hz)
+sample rate = samples par seconde (hz)
+
+samping rate doit etre au moins 2 fois plus grande que l'amplitude max du signal (Nyquist-Shannon theoreme)
+
+basique sampling rate  = 44100 hz
